@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+        <link href="assets/css/metisMenu.min.css" rel="stylesheet">
+        <link href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+        <link href="assets/vendor/select2/dist/css/select2.min.css" rel="stylesheet">
+        <link href="assets/vendor/select2-bootstrap/dist/select2-bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <title>Party Pypes</title>
+    </head>
+    <body>
+        <nav class="top--bar">
+            <div class="container d-flex justify-content-between">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+                <div class="hamburger--menu">
+                    <img src="assets/img/toggle.png" id="sidebarCollapse" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- /.Top bar -->
+        <nav id="sidebar" class="sidebar-nav">
+            <div class="sidebar--logo">
+                <a href="index.html">
+                    <img src="assets/img/logo-sidebar.png" alt="">
+                </a>
+            </div>
+            <!-- /.Sidebar logo -->
+            <ul class="metismenu list-unstyled" id="mobile-menu">
+                <li><a href="#">
+                        <i class="flaticon-layout-1"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        <i class="flaticon-filter"></i>
+                        <span>Pipeline</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="flaticon-support-2"></i>
+                        <span>Network</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="far fa-chart-bar"></i>
+                        <span>Reports</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="flaticon-toolbox"></i>
+                        <span>Toolbox</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="flaticon-layout"></i>
+                        <span>Templates</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.metismenu -->
+            <div class="action--btn">
+                <a href="#" class="btn btn-primary">Log out</a>
+            </div>
+        </nav>
+        <!-- /.Sidebar nav -->
+        <header class="page--header">
+            <div class="container">
+                <div class="heder--title d-flex justify-content-between">
+                    <h2 class="page__header--title">Upwork Huddle 2018 : Some Energy For Freelancer</h2>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/icon/dot-toggle.png" alt="">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"><i class="flaticon-double-arrow"></i> archive</a>
+                            <a class="dropdown-item" href="#"><i class="flaticon-box"></i> assign</a>
+                            <a class="dropdown-item" href="#"><i class="flaticon-support-2"></i> users</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs--content">
+                    <ul class="nav nav-tabs page__header--tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="tab-1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab-2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab-3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab-4" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Artifacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab-5" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Scorecard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="main--content">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+                    <div class="container">
+                        <div class="content--panel">
+                            <!--Nav tabs--> 
+                            <ul class="nav nav-pills page__body--tabs" role="tablist">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Information</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item active" href="#information-tab" data-toggle="tab"><i class="icon fas fa-info"></i> Information</a>
+                                        <a class="dropdown-item" href="#checklist-tab" data-toggle="tab"><i class="icon fas fa-list-ul"></i> Checklist</a>
+                                        <a class="dropdown-item" href="#contacts-tab" data-toggle="tab"><i class="icon flaticon-notepad"></i> Contacts</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--Tab panes--> 
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="information-tab">
+                                    <h2 class="title">Event Information</h2>
+                                    <form class="forms">
+                                        <div class="form-group">
+                                            <label for="event_title" class="form__label">Event Title<span class="red__orange">*</span></label>
+                                            <input type="text" class="form-control" id="event_title" placeholder="Event Titlel">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="event_date" class="form__label">Date of event<span class="red__orange">*</span></label>
+                                            <div class="has-feedback">
+                                                <span class="far fa-calendar-alt form-control-feedback"></span>
+                                                <input type="text" class="form-control datepicker" id="event_date" placeholder="Select the date">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form__label">Event type<span class="red__orange">*</span></label>
+                                            <select class="form-control basic-single">
+                                                <option value="select">Select the type</option>
+                                                <option value="select1">select one</option>
+                                                <option value="select2">select two</option>
+                                                <option value="select3">select three</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="venue" class="form__label">Venue<span class="red__orange">*</span></label>
+                                            <input type="text" class="form-control" id="venue">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="budget" class="form__label">Budget</label>
+                                            <input type="text" class="form-control" id="budget">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form__label">Lead source<span class="red__orange">*</span></label>
+                                            <select class="form-control basic-single">
+                                                <option value="select">Select the Source</option>
+                                                <option value="select1">select one</option>
+                                                <option value="select2">select two</option>
+                                                <option value="select3">select three</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="addi__info" class="form__label">additional information</label>
+                                            <textarea class="form-control" id="addi__info" rows="3"></textarea>
+                                        </div>
+                                        <hr class="separate">
+                                        <h2 class="title">Client Information</h2>
+                                        <div class="form-group">
+                                            <label for="organization" class="form__label">Organization</label>
+                                            <input type="text" class="form-control" id="organization">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact_name" class="form__label">Contact name</label>
+                                            <input type="text" class="form-control" id="contact_name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone" class="form__label">Phone</label>
+                                            <input type="text" class="form-control" id="phone">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="form__label">Email</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address" class="form__label">Address</label>
+                                            <input type="text" class="form-control" id="address">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form__label">State</label>
+                                            <select class="form-control basic-single">
+                                                <option value="select">Select state</option>
+                                                <option value="select1">select one</option>
+                                                <option value="select2">select two</option>
+                                                <option value="select3">select three</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label class="form__label">City</label>
+                                                    <select class="form-control basic-single">
+                                                        <option value="select">Select City</option>
+                                                        <option value="select1">select one</option>
+                                                        <option value="select2">select two</option>
+                                                        <option value="select3">select three</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label for="zip__code" class="form__label">ZIP Code</label>
+                                                    <input type="text" class="form-control" id="zip__code">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Save</button>
+                                    </form>
+                                    <!-- /.Forms content -->
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="checklist-tab">
+                                    Checklist
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="contacts-tab">
+                                    Contacts
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.content panel -->
+                        <div class="notes">
+                            <h2 class="title">Notes</h2>
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="notes" rows="3" placeholder="Type notes..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Add Note</button>
+                            </form>
+                        </div>
+                        <!-- /.notes -->
+                        <div class="card--panel">
+                            <div class="media">
+                                <img class="mr-3" src="assets/img/avatar.png" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="title">James Brown</h5>
+                                    <p class="des"> It is a long established fact that a reader will 
+                                        be distracted by the readable content</p>
+                                    <div class="meta--info d-flex justify-content-between">
+                                        <div class="action--meta">
+                                            <a href="#" class="action edit">Edit</a>|
+                                            <a href="#" class="action delete">Delete</a>
+                                        </div>
+                                        <div class="datetime--meta">
+                                            <time datetime="2008-02-14 20:00" class="datetime">Thursday, September 10, 2018</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.Card panel -->
+                        <div class="card--panel">
+                            <div class="media">
+                                <img class="mr-3" src="assets/img/avatar.png" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="title">James Brown</h5>
+                                    <p class="des"> It is a long established fact that a reader will 
+                                        be distracted by the readable content</p>
+                                    <div class="meta--info d-flex justify-content-between">
+                                        <div class="action--meta">
+                                            <a href="#" class="action edit">Edit</a>|
+                                            <a href="#" class="action delete">Delete</a>
+                                        </div>
+                                        <div class="datetime--meta">
+                                            <time datetime="2008-02-14 20:00" class="datetime">Thursday, September 10, 2018</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.Card panel -->
+                    </div>
+                </div>
+                <!-- /.Tab panel one -->
+                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab-2">
+                    <div class="container">
+                        .2
+                    </div>
+                </div>
+                <!-- /.Tab panel two -->
+                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab-3">
+                    <div class="container">
+                        .3
+                    </div>
+                </div>
+                <!-- /.Tab panel three -->
+                <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab-4">
+                    <div class="container">
+                        .4
+                    </div>
+                </div>
+                <!-- /.Tab panel four -->
+                <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab-5">
+                    <div class="container">
+                        .5
+                    </div>
+                </div>
+                <!-- /.Tab panel five -->
+            </div>
+        </div>
+        <!-- /.Main content -->
+        <footer class="footer fixed--footer d-flex justify-content-between align-items-center">
+            <div class="col">
+                <div class="footer--icon">
+                    <i class="flaticon-layout-1"></i>
+                </div>
+            </div>
+            <div class="col" id="searchBarCollapse">
+                <div class="footer--icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="col">
+                <a href="#" class="footer--icon notification">
+                    <i class="fas fa-bell fa-fw"></i>
+                    <span class="badge badge-danger">03</span>
+                </a>
+            </div>
+            <div class="col footer--icon user--menu">
+                <div class="footer--icon" id="userSidebarCollapse">
+                    <i class="far fa-user-circle"></i>
+                </div>
+            </div>
+        </footer>
+        <!-- /.Footer -->
+        <div class="item--add">
+            <a class="item__add--link" href="#">+</a>
+        </div>
+        <!-- /.Item add link -->
+        <div class="search-bar">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fas fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search for snippets ......">
+                <span class="input-group-addon dismiss"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+        <!-- /.End of Top Search -->
+        <nav id="userSidebar">
+            <div class="user__sidebar--header">
+                <div class="media align-items-center ">
+                    <img class="user--logo mr-3" src="assets/img/user.png" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <h5 class="user--name m-0">Dennis diaz</h5>
+                    </div>
+                </div>
+            </div>
+            <ul class="user--dropdown list-unstyled components">
+                <li class="active">
+                    <a href="#" class="menu-link">Profile</a>
+                </li>
+                <li><a href="#" class="menu-link">Settings</a></li>
+                <li>
+                    <a href="#" class="menu-link">Support</a>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="sub__menu-link">Help Video</a></li>
+                        <li><a href="#" class="sub__menu-link">Submit ticket</a></li>
+                        <li><a href="#" class="sub__menu-link">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-link">Support</a>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="sub__menu-link">Account</a></li>
+                        <li><a href="#" class="sub__menu-link">Email</a></li>
+                        <li><a href="#" class="sub__menu-link">API</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="#" class="menu-link">Logout</a></li>-->
+            </ul>
+        </nav>
+        <!-- /.User sidebar -->
+        <div class="overlay"></div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/popper.min.js" ></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/metisMenu.min.js"></script>
+        <script src="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.js"></script>
+        <script src="assets/vendor/select2/dist/js/select2.min.js"></script>
+        <script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
