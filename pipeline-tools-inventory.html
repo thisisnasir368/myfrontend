@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link href="assets/vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+        <link href="assets/vendor/select2/dist/css/select2.min.css" rel="stylesheet">
+        <link href="assets/vendor/select2-bootstrap/dist/select2-bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet">
+        <link href="assets/css/metisMenu.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <title>Party Pypes</title>
+    </head>
+    <body id="page-top">
+        <nav class="main--nav navbar navbar-expand navbar-dark bg-dark static-top">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            <!-- /.Navbar logo -->
+            <form class="navbar__search--form d-none d-md-inline-block form-inline mr-auto">
+                <div class="input-group">
+                    <button class="btn" type="button"><i class="fas fa-search"></i></button>
+                    <input type="text" class="form-control" placeholder="Search..." aria-label="Search">
+                </div>
+            </form>
+            <!-- /.Navbar search area -->
+            <ul class="navbar-nav navbar--top">
+                <li class="nav-item nav__item--add">
+                    <a class="nav-link" href="#">+</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-bell fa-fw"></i>
+                        <span class="badge badge-danger">03</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown user user-menu">
+                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/img/user.png" class="user-image" alt="User Image">
+                        <span>Dennis diaz</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right top--dropdown--menu" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Support</a>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Help Videos</a></li>
+                            <li><a href="#">Submit Ticket</a></li>
+                            <li><a href="#">F.A.Q</a></li>
+                        </ul>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Company</a>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Templates</a></li>
+                            <li><a href="#">Invoices</a></li>
+                            <li><a href="#">Catalog</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">APIs</a></li>
+                        </ul>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- /.Navbar menu item -->
+        </nav>
+        <!-- /.End of main navbar -->
+        <div id="wrapper">
+            <ul class="sidebar navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="flaticon-layout-1"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="flaticon-filter"></i>
+                        <span>Pipeline</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="flaticon-support-2"></i>
+                        <span>Network</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="far fa-chart-bar"></i>
+                        <span>Reports</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="flaticon-pamphlet"></i>
+                        <span>Catalog</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="flaticon-toolbox"></i>
+                        <span>Toolbox</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="flaticon-layout"></i>
+                        <span>Templates</span></a>
+                </li>
+            </ul>
+            <!-- /.End of sidebar -->
+            <div id="content-wrapper">
+                <div class="content--body">
+                    <header class="page--header">
+                        <div class="container">
+                            <h2 class="page__header--title">Upwork Huddle 2018 : Some Energy For Freelancer</h2>
+                            <nav class="header--navbar navbar navbar-expand-lg">
+                                <div class="collapse navbar-collapse align-items-end" id="navbarSupportedContent">
+                                    <ul class="navbar-nav link--nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pipeline-details-information.html">Details</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Client</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="pipeline-tools-inventory.html">Tools <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Artifacts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Scorecard</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="navbar-nav icon--nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="flaticon-double-arrow"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="flaticon-box"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <i class="flaticon-support-2"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </nav>
+                            <!-- /.Header navbar -->
+                        </div>
+                    </header>
+                    <div class="page--body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-2">
+                                    <ul class="category--nav list-unstyled">
+                                        <li class="nav-item active"><a class="nav-link" href="#"><i class="icon fas fa-info"></i> Inventory</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"><i class="icon fas fa-list-ul"></i> Logistic</a></li>
+                                    </ul>
+                                    <!-- /.Category nav -->
+                                </div>
+                                <div class="col-lg-9 col-xl-10">
+                                    <div class="panel">
+                                        <div class="panel--header d-flex justify-content-between align-items-center">
+                                            <div class="panel__header--title">
+                                                <h3 class="title">Inventory Management</h3>
+                                            </div>
+                                            <div class="panel__header--btn">
+                                                <a href="#" class="btn"><i class="fas fa-upload"></i> Export</a>
+                                            </div>
+                                        </div>
+                                        <div class="panel--body">
+                                            <div class="panel--sidebar">
+                                                <div class="menu--search">
+                                                    <div class="input-group">
+                                                        <button class="btn" type="button"><i class="fas fa-search"></i></button>
+                                                        <input class="form-control" placeholder="Search..." aria-label="Search" type="text">
+                                                    </div>
+                                                </div>
+                                                <!-- /.Panel sidebar search area -->
+                                                <div class="sortable--list">
+                                                    <ul class="metismenu list-unstyled" id="sortable">
+                                                        <li class="ui-state-default active">
+                                                            <a href="#" aria-expanded="false" ><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> Chairs<span class="fa arrow"></span></a>
+                                                            <ul aria-expanded="false">
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 1</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 2</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 3</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 4</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="ui-state-default">
+                                                            <a href="#" aria-expanded="false" ><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> Couches<span class="fa arrow"></span></a>
+                                                            <ul aria-expanded="false">
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 1</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 2</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 3</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 4</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="ui-state-default">
+                                                            <a href="#" aria-expanded="false" ><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> Fees<span class="fa arrow"></span></a>
+                                                            <ul aria-expanded="false">
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 1</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 2</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 3</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 4</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="ui-state-default">
+                                                            <a href="#" aria-expanded="false" ><span class="ui-icon ui-icon-arrowthick-2-n-s"></span> Fees<span class="fa arrow"></span></a>
+                                                            <ul aria-expanded="false">
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 1</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 2</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 3</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                                <li><div class="item"><a href="javascript:void(0)" class="item--name"> Lorem ispam 4</a><div class="add--number d-flex"><span class="number">4/10</span> <span class="icon plus--icon" data-toggle="modal" data-target="#addQuantity"></span></div></div></li>
+                                                            </ul>
+                                                        </li>
+                                                        <!--<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>-->
+                                                    </ul>
+                                                </div>
+                                                <!-- /.Sortable list -->
+                                            </div>
+                                            <div class="panel---area">
+                                            <div class="inventory--table">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Category</th>
+                                                                <th>Item</th>
+                                                                <th>Quantity</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Lorem ispam 1</td>
+                                                                <td>Item 1</td>
+                                                                <td>
+                                                                    <div data-quantity="Quantity" class="quantity">
+                                                                        <div class="input-group spinner">
+                                                                            <input type="text" class="form-control" value="900">
+                                                                            <div class="input-group-btn-vertical">
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-up"></i></button>
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-down"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="action--btn">
+                                                                        <button class="btn btn-sm delete"><span><i class="fas fa-trash-alt"></i></span></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Lorem ispam 2</td>
+                                                                <td>Item 2</td>
+                                                                <td>
+                                                                    <div data-quantity="Quantity" class="quantity">
+                                                                        <div class="input-group spinner">
+                                                                            <input type="text" class="form-control" value="3">
+                                                                            <div class="input-group-btn-vertical">
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-up"></i></button>
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-down"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="action--btn">
+                                                                        <button class="btn btn-sm delete"><span><i class="fas fa-trash-alt"></i></span></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Lorem ispam 3</td>
+                                                                <td>Item 3</td>
+                                                                <td>
+                                                                    <div data-quantity="Quantity" class="quantity">
+                                                                        <div class="input-group spinner">
+                                                                            <input type="text" class="form-control" value="8">
+                                                                            <div class="input-group-btn-vertical">
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-up"></i></button>
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-down"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="action--btn">
+                                                                        <button class="btn btn-sm delete"><span><i class="fas fa-trash-alt"></i></span></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Lorem ispam 4</td>
+                                                                <td>Item 4</td>
+                                                                <td>
+                                                                    <div data-quantity="Quantity" class="quantity">
+                                                                        <div class="input-group spinner">
+                                                                            <input type="text" class="form-control" value="9">
+                                                                            <div class="input-group-btn-vertical">
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-up"></i></button>
+                                                                                <button class="btn btn-default" type="button"><i class="fas fa-angle-down"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="action--btn">
+                                                                        <button class="btn btn-sm delete"><span><i class="fas fa-trash-alt"></i></span></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.End of content -->
+        </div>
+        <!-- /#wrapper -->
+        <!-- Add item modal -->
+        <div class="modal add--quantity" id="addQuantity" tabindex="-1" role="dialog" aria-labelledby="addQuantityLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addQuantityLabel">Add item</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="organization" class="form__label">Organization</label>
+                            <input class="form-control" id="organization" type="text" placeholder="4">
+                        </div>
+                        <div class="action--btn">
+                            <button type="button" class="btn btn-success mr-2">Save</button>
+                            <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/select2/dist/js/select2.min.js"></script>
+        <script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/vendor/jQuery-slimScroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/js/metisMenu.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
